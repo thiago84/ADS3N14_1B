@@ -4,7 +4,7 @@ public class Merge {
 	public static int troca = 0;
 
 	public static void main(String[] args) {
-		int[] array = new int[100];
+		int[] array = new int[50];
 
 		numRandom(array);
 
