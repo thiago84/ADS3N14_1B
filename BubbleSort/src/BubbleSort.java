@@ -1,7 +1,8 @@
 public class BubbleSort {
 
 	public static void main(String[] args) {
-		int array[] = { 8, 3, 4, 2, 6, 7, 1, 9, 5, 0 };
+		int array[] = { 12, 8, 3, 20, 4, 16, 2, 10, 19, 6, 7, 14, 15, 1, 17, 9,
+				5, 11, 13, 18 };
 
 		System.out.print("[Numeros desordenados] ");
 		for (int a = 0; a < array.length; a++) {

@@ -4,18 +4,17 @@ public class Merge {
 	public static int troca = 0;
 
 	public static void main(String[] args) {
-		int[] array = new int[50];
+		int array[] = { 12, 8, 3, 20, 4, 16, 2, 10, 19, 6, 7, 14, 15, 1, 17, 9,
+				5, 11, 13, 18 };
 
-		numRandom(array);
-
-		System.out.println("[Numeros desordenados]");
+		System.out.println("[Numeros desordenados] ");
 		printArray(array);
 
 		System.out.println("\n");
 
 		mergeSort(array);
 
-		System.out.println("[Numeros ordenados]");
+		System.out.println("[Numeros ordenados] ");
 		printArray(array);
 
 		System.out.println("\n");
@@ -90,9 +89,4 @@ public class Merge {
 		}
 	}
 
-	private static void numRandom(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			array[i] = (int) (1 + (Math.random() * array.length));
-		}
-	}
 }
